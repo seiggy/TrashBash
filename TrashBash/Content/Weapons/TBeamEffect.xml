@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="System.String[]">
+	  <Item>Weapons/Stasis2/Stasis_1.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_2.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_3.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_4.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_5.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_6.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_7.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_8.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_9.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_10.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_11.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_12.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_13.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_14.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_15.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_16.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_17.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_18.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_19.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_20.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_21.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_22.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_23.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_24.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_25.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_26.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_27.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_28.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_29.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_30.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_31.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_32.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_33.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_34.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_35.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_36.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_37.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_38.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_39.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_40.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_41.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_42.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_43.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_44.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_45.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_46.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_47.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_48.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_49.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_50.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_51.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_52.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_53.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_54.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_55.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_56.png</Item>
+	  <Item>Weapons/Stasis2/Stasis_57.png</Item>
+  </Asset>
+</XnaContent>

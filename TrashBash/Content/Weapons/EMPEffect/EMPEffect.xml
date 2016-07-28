@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="System.String[]">
+    <Item>Weapons/EMP4/EMP_1.png</Item>
+    <Item>Weapons/EMP4/EMP_2.png</Item>
+    <Item>Weapons/EMP4/EMP_3.png</Item>
+    <Item>Weapons/EMP4/EMP_4.png</Item>
+    <Item>Weapons/EMP4/EMP_5.png</Item>
+    <Item>Weapons/EMP4/EMP_6.png</Item>
+    <Item>Weapons/EMP4/EMP_7.png</Item>
+    <Item>Weapons/EMP4/EMP_8.png</Item>
+    <Item>Weapons/EMP4/EMP_9.png</Item>
+    <Item>Weapons/EMP4/EMP_10.png</Item>
+    <Item>Weapons/EMP4/EMP_11.png</Item>
+    <Item>Weapons/EMP4/EMP_12.png</Item>
+    <Item>Weapons/EMP4/EMP_13.png</Item>
+    <Item>Weapons/EMP4/EMP_14.png</Item>
+    <Item>Weapons/EMP4/EMP_15.png</Item>
+    <Item>Weapons/EMP4/EMP_16.png</Item>
+    <Item>Weapons/EMP4/EMP_17.png</Item>
+    <Item>Weapons/EMP4/EMP_18.png</Item>
+    <Item>Weapons/EMP4/EMP_19.png</Item>
+    <Item>Weapons/EMP4/EMP_20.png</Item>
+    <Item>Weapons/EMP4/EMP_21.png</Item>
+    <Item>Weapons/EMP4/EMP_22.png</Item>
+    <Item>Weapons/EMP4/EMP_23.png</Item>
+    <Item>Weapons/EMP4/EMP_24.png</Item>
+    <Item>Weapons/EMP4/EMP_25.png</Item>
+    <Item>Weapons/EMP4/EMP_26.png</Item>
+    <Item>Weapons/EMP4/EMP_27.png</Item>
+    <Item>Weapons/EMP4/EMP_28.png</Item>
+    <Item>Weapons/EMP4/EMP_29.png</Item>
+    <Item>Weapons/EMP4/EMP_30.png</Item>
+    <Item>Weapons/EMP4/EMP_31.png</Item>
+    <Item>Weapons/EMP4/EMP_32.png</Item>
+    <Item>Weapons/EMP4/EMP_33.png</Item>
+    <Item>Weapons/EMP4/EMP_34.png</Item>
+    <Item>Weapons/EMP4/EMP_35.png</Item>
+    <Item>Weapons/EMP4/EMP_36.png</Item>
+    <Item>Weapons/EMP4/EMP_37.png</Item>
+    <Item>Weapons/EMP4/EMP_38.png</Item>
+    <Item>Weapons/EMP4/EMP_39.png</Item>
+    <Item>Weapons/EMP4/EMP_40.png</Item>
+    <Item>Weapons/EMP4/EMP_41.png</Item>
+  </Asset>
+</XnaContent>

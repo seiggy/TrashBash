@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="System.String[]">
+    <Item>Weapons/TractorBeam/TractorBeam_1.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_2.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_3.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_4.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_5.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_6.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_7.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_8.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_9.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_10.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_11.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_12.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_13.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_14.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_15.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_16.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_17.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_18.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_19.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_20.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_21.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_22.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_23.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_24.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_25.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_26.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_27.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_28.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_29.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_30.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_31.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_32.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_33.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_34.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_35.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_36.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_37.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_38.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_39.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_40.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_41.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_42.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_43.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_44.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_45.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_46.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_47.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_48.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_49.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_50.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_51.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_52.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_53.png</Item>
+    <Item>Weapons/TractorBeam/TractorBeam_54.png</Item>
+  </Asset>
+</XnaContent>

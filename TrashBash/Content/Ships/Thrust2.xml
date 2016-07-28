@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="System.String[]">
+    <Item>Weapons/ThrustS2/Thrust_1.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_2.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_3.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_4.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_5.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_6.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_7.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_8.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_9.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_10.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_11.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_12.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_13.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_14.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_15.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_16.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_17.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_18.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_19.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_20.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_21.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_22.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_23.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_24.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_25.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_26.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_27.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_28.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_29.png</Item>
+    <Item>Weapons/ThrustS2/Thrust_30.png</Item>
+  </Asset>
+</XnaContent>
