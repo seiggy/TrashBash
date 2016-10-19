@@ -8,6 +8,10 @@ using Microsoft.Xna.Framework.Audio;
 using System.Collections.Generic;
 using System.Diagnostics;
 using TrashBash.MonoGame.ScreenSystem;
+using TrashBash.MonoGame.Objects;
+using TrashBash.MonoGame.Objects.Weapons;
+using FarseerPhysics.Controllers;
+using TrashBash.MonoGame.SoundSystem;
 
 namespace TrashBash.MonoGame.Levels
 {
@@ -35,7 +39,7 @@ namespace TrashBash.MonoGame.Levels
         /// a BST or some faster dictionary type
         /// object for resource pooling the trash.
         /// </summary>
-        Pool<Trash> trash = new Pool<Trash>();
+        Pool<Trash> trash = new Pool<Trash>(() => new Trash());
         List<Trash> trashToDraw = new List<Trash>();
 
         /// <summary>
@@ -60,23 +64,23 @@ namespace TrashBash.MonoGame.Levels
 
         UI.HUD hud = new UI.HUD();
 
-        Pool<Laser> p1Bullets = new Pool<Laser>();
+        Pool<Laser> p1Bullets = new Pool<Laser>(() => new Laser());
         List<Laser> p1BulletsToDraw = new List<Laser>();
         int p1MaxBullets = 10;
 
-        Pool<Laser> p2Bullets = new Pool<Laser>();
+        Pool<Laser> p2Bullets = new Pool<Laser>(() => new Laser());
         List<Laser> p2BulletsToDraw = new List<Laser>();
         int p2MaxBullets = 10;
 
-        Pool<BlackHole> bholeWeapon = new Pool<BlackHole>();
+        Pool<BlackHole> bholeWeapon = new Pool<BlackHole>(() => new BlackHole());
         List<BlackHole> bholeToDraw = new List<BlackHole>();
         int bholeMax = 4;
 
-        Pool<ConcussionGrenade> conGrenWeapon = new Pool<ConcussionGrenade>();
+        Pool<ConcussionGrenade> conGrenWeapon = new Pool<ConcussionGrenade>(() => new ConcussionGrenade());
         List<ConcussionGrenade> conGrenToDraw = new List<ConcussionGrenade>();
         int conGrenMax = 4;
 
-        Pool<EmpWeapon> empWeapon = new Pool<EmpWeapon>();
+        Pool<EmpWeapon> empWeapon = new Pool<EmpWeapon>(() => new EmpWeapon());
         List<EmpWeapon> empToDraw = new List<EmpWeapon>();
         int empMax = 4;
 
@@ -165,16 +169,11 @@ namespace TrashBash.MonoGame.Levels
         {
             // Init the Physics Engine. Pass Vector2 representing gravity
             // direction and strength
-            PhysicsSimulator = new PhysicsSimulator(new Vector2(0, 40));
-            PhysicsSimulator.InactivityController.Enabled = true;
-            PhysicsSimulator.InactivityController.ActivationDistance = 800;
-            PhysicsSimulator.InactivityController.MaxIdleTime = 2000;
-            PhysicsSimulator.AllowedPenetration = 0f;
-            PhysicsSimulator.BiasFactor = .4f;
-
+            PhysicsSimulator = new FarseerPhysics.Dynamics.World(new Vector2(0, 40));
+            
             // Physics Sim View. This is used for debugging. Can be removed
             // or disabled in final release
-            PhysicsSimulatorView = new PhysicsSimulatorView(PhysicsSimulator);
+            //PhysicsSimulatorView = new PhysicsSimulatorView(PhysicsSimulator);
         }
 
         /// <summary>

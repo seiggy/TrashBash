@@ -18,7 +18,7 @@ namespace TrashBash.MonoGame.Objects
     {
         private Body baseBody;
         private Shape baseGeom;
-        private Shape baseScoreGeom;
+        private Body baseScoreGeom;
         private Vector2 baseOrigin;
         private Texture2D baseTexture;
         private Texture2D collisionTexture;
@@ -73,33 +73,32 @@ namespace TrashBash.MonoGame.Objects
             get { return this.baseOrigin; }
         }
 
-        public void Load(ScreenManager screenManager, PhysicsSimulator physicsSimulator, string name)
+        public void Load(ScreenManager screenManager, World physicsSimulator, string name)
         {
             baseTexture = screenManager.ContentManager.Load<Texture2D>("Content/Objects/" + name);
             collisionTexture = screenManager.ContentManager.Load<Texture2D>("Content/Objects/trashBin_collision");
             uint[] data = new uint[baseTexture.Width * baseTexture.Height];
             collisionTexture.GetData(data);
-
-            Vertices verts = Vertices.CreatePolygon(data, baseTexture.Width, baseTexture.Height);
+            
+            Vertices verts = PolygonTools.CreatePolygon(data, baseTexture.Width);
             baseOrigin = verts.GetCentroid();
-            verts.SubDivideEdges(15);
+            //verts.SubDivideEdges(15);
 
-            baseBody = BodyFactory.Instance.CreatePolygonBody(physicsSimulator, verts, 40f);
+            baseBody = BodyFactory.CreatePolygon(physicsSimulator, verts, 40f);
             baseBody.IsStatic = true;
             baseBody.Position = position;
+            baseBody.CollisionGroup = 0;
+            baseBody.CollidesWith = collidesWith;
+            baseBody.CollisionCategories = collisionCategory;
 
-            baseGeom = GeomFactory.Instance.CreatePolygonGeom(physicsSimulator, baseBody, verts, 0);
-            baseGeom.CollisionGroup = 0;
-            baseGeom.CollidesWith = collidesWith;
-            baseGeom.CollisionCategories = collisionCategory;
+            baseGeom = new PolygonShape(verts, 0);
             // baseGeom.OnCollision += new Geom.CollisionEventHandler(OnCollide);
 
-            baseScoreGeom = GeomFactory.Instance.CreateRectangleGeom(physicsSimulator, baseBody, 160, 30, new Vector2(0, -24), 0f);
+            baseScoreGeom = BodyFactory.CreateRectangle(physicsSimulator, 160, 30, 0f, new Vector2(0, -24));
             baseScoreGeom.CollisionGroup = 1;
             baseScoreGeom.CollidesWith = collidesWith;
             baseScoreGeom.CollisionCategories = collisionCategory;
-            baseScoreGeom.CollisionResponseEnabled = false;
-            baseScoreGeom.OnCollision += new Geom.CollisionEventHandler(OnCollide);
+            baseScoreGeom.OnCollision += OnCollide;
 
             var baseScoreFixture = FixtureFactory.AttachRectangle(160, 30, 0f, new Vector2(0, -24), baseBody);
             baseScoreFixture.OnCollision += OnCollide;
@@ -107,9 +106,9 @@ namespace TrashBash.MonoGame.Objects
 
         public bool OnCollide(Fixture g1, Fixture g2, Contact contact)
         {
-            if ((string)g1.UserData == "trash")
+            if (g1.UserData.GetType() == typeof(Trash))
             {
-                this.player.Score += ((Trash)g1.Tag).ScoreValue;
+                this.player.Score += ((Trash)g1.UserData).ScoreValue;
                 g1.UserData = "reset";
                 if (player.TractorActive)
                 {
@@ -117,9 +116,9 @@ namespace TrashBash.MonoGame.Objects
                     player.TractorBeam.Enabled = false;
                 }
             }
-            else if ((string)g2.UserData == "trash")
+            else if (g2.UserData.GetType() == typeof(Trash))
             {
-                this.player.Score += ((Trash)g2.Tag).ScoreValue;
+                this.player.Score += ((Trash)g2.UserData).ScoreValue;
                 g2.UserData = "reset";
                 if (player.TractorActive)
                 {
